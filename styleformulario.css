@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #111112;
+    color: #333;
+    line-height: 1.6;
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+    color: rgb(11, 11, 11);
+    padding: 60px 20px;
+  }
+  .redes{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.logoms{
+    font-size: 15px;
+    color:blue;
+}
+.logowsp{
+    font-size: 15px;
+    color:green;
+    
+}
+.logolin{
+    font-size: 15px;
+    color:blue;
+    
+}
+.logoins{
+    font-size: 15px;
+    color:rgb(254, 6, 180);
+}
+
+  

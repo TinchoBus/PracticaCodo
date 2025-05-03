@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+}
+.contenedor{
+    width: 100px;
+    height: 100px;
+    background-color: tomato;
+    margin: 50px, 20px, 10px, 5px;
+
+}
+.redes{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.logoms{
+    font-size: 15px;
+    color:blue;
+}
+.logowsp{
+    font-size: 15px;
+    color:green;
+    
+}
+.logolin{
+    font-size: 15px;
+    color:blue;
+    
+}
+.logoins{
+    font-size: 15px;
+    color:rgb(254, 6, 180);
+}

@@ -1,0 +1,79 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --color-primary:#007bff;
+    --font-size-large: 22px; /* Tamaño base de fuente */}
+
+h1 {font-size: 2rem; /* El doble del tamaño base: 44px */
+color: var(--color-primary);
+}
+
+
+h2 {font-size: 1rem; /* El mismo tamaño base: 22px */}
+
+.prueba{
+    width: 20vw;
+    height: 50vh;
+    background-color: cadetblue;
+}
+section{
+    width: 400px;
+    height: 400px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+
+}
+.parrafo{
+    font-size: 20px;
+    color: #ab0db0;
+    text-align: center;
+  }
+  .prueba2{
+    background-image:url(' https://wallpapers.com/images/featured/the-last-of-us-2-3j68e8vqs6dqnwhn.jpg');
+    width: 100vw;
+    height: 100vh;
+    font-size: 20px;
+    color: #f7bd00;
+    text-align: center;
+    background-size: cover;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+.prueba3{
+    
+.montserrat{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+  
+}
+}
+.redes{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.logoms{
+    font-size: 15px;
+    color:blue;
+}
+.logowsp{
+    font-size: 15px;
+    color:green;
+    
+}
+.logolin{
+    font-size: 15px;
+    color:blue;
+    
+}
+.logoins{
+    font-size: 15px;
+    color:rgb(254, 6, 180);
+}
+
+

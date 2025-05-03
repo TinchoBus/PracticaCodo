@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <script src="https://kit.fontawesome.com/683b2a90e3.js" crossorigin="anonymous"></script>
+  <!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!-- Modo oscuro script -->
+<script>
+   function toggleDarkMode() {
+    document.body.classList.toggle('dark-mode');
+  } 
+</script>
+
+
+  <title>Mi Página Moderna</title>
+</head>
+<body>
+    <i class="fa-solid fa-house"></i>
+
+  <header>
+    <div class="container">
+      <h1>Bienvenid@ a Mi Página</h1>
+      <p>Explorá un diseño moderno con CSS 🎨</p>
+      <a href="/index.html" class="btn">Ir a Página Principal</a>
+    </div>
+    <button onclick="toggleDarkMode()" class="btn-darkmode">
+        <i class="fas fa-moon"></i> Modo Oscuro
+      </button>
+      
+  </header>
+
+  <main>
+    <section class="info">
+      <h2>Sobre Nosotros</h2>
+      <p>
+        Creamos páginas web con estilo, claridad y modernidad. Este es un ejemplo
+        de cómo podés mejorar el diseño de tu sitio con CSS.
+      </p>
+    </section>
+
+    <section class="cards">
+      <div class="card">
+        <h3>Diseño Responsivo</h3>
+        <p>Tu sitio se adapta a cualquier dispositivo.</p>
+      </div>
+      <div class="card">
+        <h3>Estilo Moderno</h3>
+        <p>Usamos colores suaves, bordes redondeados y buena tipografía.</p>
+      </div>
+      <div class="card">
+        <h3>Fácil de Editar</h3>
+        <p>Código claro, ordenado y fácil de modificar.</p>
+      </div>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form action="procesar_formulario.php" method="POST">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required>
+      
+          <label for="email">Correo Electrónico:</label>
+          <input type="email" id="email" name="email" required>
+      
+          <label for="mensaje">Mensaje:</label>
+          <textarea id="mensaje" name="mensaje" required></textarea>
+      
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+      
+  </main>
+
+  <footer>
+    <ul class="redes">
+        <li><i class="fa-brands fa-facebook-messenger logoms "></i>   Messenger</li>
+        <li><i class="fa-brands fa-whatsapp logowsp"></i> WhatsApp</li>
+        <li><i class="fa-brands fa-linkedin logolin"></i>  Linkedin</li>
+        <li><i class="fa-brands fa-square-instagram logoins"></i> Instagram</li>
+    </ul>
+    <ul></ul>
+    <p>&copy; 2023 Your Company Name. All rights reserved.</p>
+</footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    background-color:tomato;
+    color: #060606;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    width: 100%;
+    height: 100%;
+    
+}
+header {
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+    color: rgb(8, 8, 8);
+    padding: 60px 60px 20px;
+    text-align: center;
+  }
+  .titulo{
+    font-size: 56px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px #940303;
+    text-align: center;
+    padding: 10px;
+    background-color: #4facfe;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+    
+
+  }
+.contenedor-audio{
+    
+    background-color: #25054f;
+    color: #058755;
+    line-height: 1.6;
+    text-align: center;
+    padding: 5px;
+}
+.contenedor-audio h1{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.contenedor-audio h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.contenedor-audio h2:hover{
+    color: #f2f6fc;
+    text-decoration: underline;
+
+}
+
+.Seleccion-audios{
+    background-color: #f2f6fc;
+    color: #333;
+    line-height: 1.6;
+    text-align: center;
+    padding: 5px;
+}
+.Seleccion-audios:hover{
+    background-color: #25054f;
+    color: #058755;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 20px;
+    transition: background 0.3s;
+    transition: color 0.3s;
+    transition: font-size 0.3s;
+    transition: font-weight 0.3s;
+    transition: text-decoration 0.3s;
+} 
+td{
+    background-color: #f2f6fc;
+    color: #333;
+    line-height: 1.6;
+    text-align: center;
+    padding: 5px;
+}
+.redes{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.logoms{
+    font-size: 15px;
+    color:blue;
+}
+.logowsp{
+    font-size: 15px;
+    color:green;
+    
+}
+.logolin{
+    font-size: 15px;
+    color:blue;
+    
+}
+.logoins{
+    font-size: 15px;
+    color:rgb(254, 6, 180);
+}

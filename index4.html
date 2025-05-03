@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formularios u subidas</title>
+    <link rel="stylesheet" href="styleformulario.css">
+    <script src="https://kit.fontawesome.com/683b2a90e3.js" crossorigin="anonymous"></script>
+</head>
+<a href="index.html">Ir a paginaPrincipal</a>
+<br>
+<br>
+<body>
+    <form action="#" method="get">
+        
+        <fieldset>
+             <legend>Datos personales</legend>
+             <label for="Nombre">Nombre</label>
+            <input type="text" id="Nombre" name="Nombre" placeholder="Ingresa tu Nombre" required>
+            <label for="Apellido">Apellido</label>
+            <input type="text" id="Apellido" name="Apellido" placeholder="Ingresa tu Apellido" required>
+            <br>
+            <label for="Edad">Edad</label>
+            <input type="number" id="Edad" name="Edad" placeholder="Ingresa tu Edad" required>
+            <label for="Fecha_edad">Fecha de nacimiento</label>
+            <input type="date" id="Fecha_edad" name="Fecha_edad" placeholder="Ingresa tu Fecha de nacimiento" required>
+            <label for="satisfaccion">Nivel de satisfaccion</label>
+            <input type="range" id="satisfaccion" min="1" max="10" value="5">
+            <br>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Ingresa tu Email">
+            <br>
+            clave:<input type="password" name="clave" size="25" placeholder="Ingresa tu Clave">
+
+        </fieldset>
+        
+        
+    <fieldset>
+        <legend>Dias de la semana que deseas cursar</legend>
+        <br>
+        
+        
+        <br>
+        <label for="dias">Elegi los dias que queres cursar</label>
+        <br>
+        <input type="checkbox" name="dias" value="1"> Lunes
+        <br>
+        <input type="checkbox" name="dias" value="2"> Martes
+        <br>
+        <input type="checkbox" name="dias" value="3"> Miercoles
+        <br>
+        <input type="checkbox" name="dias" value="3"> Jueves    
+        <br>
+        <input type="checkbox" name="dias" value="3"> Viernes
+        <br>
+    </fieldset>
+
+    <fieldset>
+        <legend>Eleccion de tecnologia</legend>
+        <br>
+        <br>
+        <label for="tecnologia">Tecnologias</label>
+        <br>
+        <input type="radio" name="tecnologia" value="CSS">CSS
+        <br>
+        <input type="radio" name="tecnologia" value="Phyton">Phyton
+        <br>
+        <input type="radio" name="tecnologia" value="Java">Java
+        <br>
+        <input type="radio" name="tecnologia" value="Javascript">Javascript
+        <br>
+        <input type="radio" name="tecnologia" value="C++">C++
+        <br>
+        <input type="radio" name="tecnologia" value="Node">Nodejs
+        <br>
+        <input type="radio" name="tecnologia" value="Dyango">Dyango
+        <br>
+        <input type="radio" name="tecnologia" value="PHP">PHP
+    </fieldset>
+        
+        <br>
+        <br>
+        <fieldset>
+            <legend for="presentacion">Carta de presentacion</legend>
+            <textarea name="presentacion" id="presentacion" cols="70" rows="20" placeholder="Contanos acerca de vos"></textarea>
+        </fieldset>
+        <fieldset>
+            <legend>Turnos de cursada</legend>
+            <select name="turno" id="turno">
+            <option value="mañana">Mañana (10 a 12 Hs.)</option>
+            <option value="tarde">Tarde (13 a 15 Hs.)</option>
+            <option value="noche">Noche (20 a 22 Hs.)</option>
+        </select>
+        </fieldset>
+        
+        <br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Borrar todo">
+
+
+    </form>
+    <br>
+    
+   
+    
+    
+    <footer>
+        <ul class="redes">
+            <li><i class="fa-brands fa-facebook-messenger logoms "></i>   Messenger</li>
+            <li><i class="fa-brands fa-whatsapp logowsp"></i> WhatsApp</li>
+            <li><i class="fa-brands fa-linkedin logolin"></i>  Linkedin</li>
+            <li><i class="fa-brands fa-square-instagram logoins"></i> Instagram</li>
+        </ul>
+        <ul></ul>
+        <p>&copy; 2023 Your Company Name. All rights reserved.</p>
+    </footer>
+   
+
+
+
+</body>
+</html>

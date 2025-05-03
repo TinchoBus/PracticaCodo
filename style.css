@@ -1,0 +1,288 @@
+/* Reset y base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f2f6fc;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  /* Contenedor */
+  .container {
+    text-align: center;
+    padding: 60px 20px;
+  }
+  
+  /* Header */
+  header {
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+    color: white;
+    padding: 60px 20px;
+  }
+  
+  header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  header p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: white;
+    color: #00bcd4;
+    padding: 10px 25px;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: background 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #e0f7fa;
+  }
+  
+  /* Secciones */
+  .info {
+    padding: 40px 20px;
+    background-color: white;
+    text-align: center;
+  }
+  
+  .info h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .info p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  /* Cards */
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 20px;
+  }
+  
+  .card {
+    background-color: #ffffff;
+    padding: 20px;
+    width: 250px;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card h3 {
+    color: #007acc;
+    margin-bottom: 10px;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+  }
+  
+  @keyframes deslizar {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  
+  .elemento {
+    animation: deslizar 1s ease-out;
+  }
+  #contacto {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  #contacto h2 {
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-top: 10px;
+  }
+  
+  input, textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  button {
+    background-color: #4CAF50;
+  }
+  /* Formulario base */
+#contacto {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 16px;
+    max-width: 600px;
+    margin: auto;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+  }
+  
+  #contacto h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  form label {
+    display: block;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  form input, form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-top: 8px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  form input:focus, form textarea:focus {
+    border-color: #00bcd4;
+    box-shadow: 0 0 5px rgba(0, 188, 212, 0.4);
+    outline: none;
+  }
+  
+  form button {
+    margin-top: 25px;
+    width: 100%;
+    padding: 12px;
+    background-color: #00bcd4;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  form button:hover {
+    background-color: #0199a8;
+  }
+  
+  /* Modo oscuro */
+  body.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+  }
+  
+  body.dark-mode #contacto {
+    background-color: #1e1e1e;
+  }
+  
+  body.dark-mode input,
+  body.dark-mode textarea {
+    background-color: #2b2b2b;
+    color: #f1f1f1;
+    border: 1px solid #444;
+  }
+  
+  body.dark-mode form button {
+    background-color: #26c6da;
+  }
+  .btn-darkmode {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #444;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 16px;
+    font-size: 14px;
+    cursor: pointer;
+    z-index: 999;
+    transition: background 0.3s;
+  }
+  
+  .btn-darkmode:hover {
+    background-color: #333;
+  }
+  @keyframes aparecerDesdeAbajo {
+    0% {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .animar-formulario {
+    animation: aparecerDesdeAbajo 0.8s ease-out;
+  }
+  .redes{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.logoms{
+    font-size: 15px;
+    color:blue;
+}
+.logowsp{
+    font-size: 15px;
+    color:green;
+    
+}
+.logolin{
+    font-size: 15px;
+    color:blue;
+    
+}
+.logoins{
+    font-size: 15px;
+    color:rgb(254, 6, 180);
+}
+
+  
+    
+    
