@@ -1,0 +1,57 @@
+body{
+    background-color: #111112;
+    color: #333;
+    line-height: 1.6;
+    background: linear-gradient(135deg, #4ffe89, #203233);
+    color: rgb(11, 11, 11);
+    padding: 60px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 60px 20px;
+
+}
+.contenedor-imagen{   
+     background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Boyz_II_Men_-_Walmart_%281%29.jpg/420px-Boyz_II_Men_-_Walmart_%281%29.jpg');
+     width: 100vw;
+     height: 100vh;
+     font-size: 23px;
+     color: #0f0b09 ;
+     text-align: center;
+     background-size: cover;
+     font-family: 'Courier New', Courier, monospace;
+     font-weight: bold;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+ 
+}
+
+    .redes{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.logoms{
+    font-size: 15px;
+    color:blue;
+}
+.logowsp{
+    font-size: 15px;
+    color:green;
+    
+}
+.logolin{
+    font-size: 15px;
+    color:blue;
+    
+}
+.logoins{
+    font-size: 15px;
+    color:rgb(254, 6, 180);
+}
+
+  
+    
+    

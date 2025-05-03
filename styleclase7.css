@@ -6,6 +6,69 @@
     height: 100px;
     background-color: tomato;
     margin: 50px, 20px, 10px, 5px;
+    border: color(srgb red green blue);
+    border-width: 5%;
+    border-style: solid;
+
+}
+@keyframes bounceIn {
+    0% {
+        transform: scale(0.3);
+        opacity: 0;
+    }
+    50% {
+        transform: scale(1.05);
+        opacity: 1;
+    }
+    70% {
+        transform: scale(0.9);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.animado {
+    animation: bounceIn 1s ease-out;
+}
+
+/* Estilo chic para los títulos */
+.titulo1, .titulo2 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    transition: all 0.4s ease;
+}
+
+.titulo1 {
+    font-size: 70px;
+    color: #3b2d01;
+}
+
+.titulo2 {
+    font-size: 50px;
+    color: #4a3f02;
+}
+
+/* Efecto glamoroso al pasar el mouse */
+.titulo1:hover, .titulo2:hover {
+    color: #0cd63f;
+    transform: scale(1.1);
+    text-shadow: 0 0 10px #092e70, 0 0 20px #0c090c;
+}
+
+.titulo2{
+    font-size: 30px;
+    color: #01233b;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+.definicion{
+   color: chartreuse;
+   background-color: black;
+    font-size: 20px;
+    text-align: center;
 
 }
 .redes{
