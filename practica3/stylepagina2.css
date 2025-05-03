@@ -25,6 +25,11 @@ body{
         background-attachment: fixed;
  
 }
+.contenedor-imagenes2{
+    width: 5px;
+    height: 5px;
+  
+}
 
     .redes{
     list-style: none;
