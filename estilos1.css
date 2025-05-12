@@ -38,6 +38,34 @@ header {
     
 
   }
+.contenedor-links {
+    font-size: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;  
+    text-transform: uppercase;
+}
+
+.contenedor-links a {
+    display: inline-block;
+    margin: 10px 0;
+    text-decoration: none;
+    color: #000;
+    transition: transform 0.3s ease, filter 0.3s ease, text-shadow 0.3s ease;
+}
+
+.contenedor-links a:hover {
+    transform: scale(1.2); /* agranda el texto */
+    filter: brightness(1.5); /* aumenta la luminosidad */
+    text-shadow: 2px 2px 6px #00ffd5; /* efecto llamativo */
+    color: #005555; /* opcional: cambia el color para más atractivo */
+}
+
+   
+
+
+
 .contenedor-audio{
     
     background-color: #25054f;

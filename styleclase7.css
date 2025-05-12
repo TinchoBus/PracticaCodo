@@ -71,9 +71,41 @@
     text-align: center;
 
 }
+.contenedor-imagenes1{
+    width: 150vh;
+    height: 150vh;
+
+}
+.contenedor-imagenes2{
+    display: flex;
+    justify-content: center;
+    width: 150vh;
+    height: 150vh;
+}
 
 
-     
+.contenedor-figura1{
+    border-color: rgb(14, 233, 186) #3b2d01 #092e70;
+    border-width: 300px;
+    border-style: solid;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    width: 100px;
+    height: 100px;
+    margin: 500px, 20px, 10px, 5px;
+    border-radius: 50%;
+   
+
+}
+
+.contenedor-figura2{
+    border-color: rgb(254, 6, 180) #0cd63f;
+    border-width: 100px;   
+    box-shadow: #3b2d01 0px 0px 20px 0px;
+    border-style: solid; 
+    padding: 10px;
+}
+      
 .redes{
     list-style: none;
     display: flex;
