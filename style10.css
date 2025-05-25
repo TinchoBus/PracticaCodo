@@ -1,0 +1,121 @@
+.grid-container {
+    display: grid;
+
+    /* Pixeles */
+    grid-template-columns: 100px 300px 200px;
+    grid-template-rows: 100px 200px 300px 100px;
+
+    /* repeat */
+    grid-template-columns: repeat(7, auto);
+    grid-template-rows: repeat(3, auto); 
+    grid-column-gap: 80px;
+    grid-row-gap: 50%; 
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 3fr 2fr; 
+    gap: 10px;
+}
+
+.grid-item {
+    background-color: tomato;
+    padding: 20px;
+    text-align: center;
+}
+
+/* .grid-item:nth-child(1) {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+} */
+
+
+#btnVolverArriba {
+  display: none; /* Oculto al principio */
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  z-index: 99;
+  font-size: 22px;
+  border: none;
+  outline: none;
+  background-color: #4facfe;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  transition: all 0.3s ease;
+}
+
+#btnVolverArriba:hover {
+  background-color: #00f2fe;
+  transform: scale(1.1);
+}
+
+
+.redes{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    padding: 0;
+}
+.logoms {
+  color: #0084ff;
+}
+.logowsp {
+  color: #25D366;
+}
+.logolin {
+  color: #0077b5;
+}
+.logoins {
+  color: #C13584;
+}
+
+
+a:visited{
+    color: #980101;
+    text-decoration: none;
+    font-size: medium; 
+    font-weight: bold;
+}
+@media screen and (max-width: 768px) {
+  .contenedor-links {
+    max-width: 100%;
+    padding: 15px;
+  }
+
+  iframe {
+    width: 100%;
+    height: auto;
+  }
+
+  table {
+    width: 100%;
+  }
+}
+.pie-pagina{
+  background-color: #f2f2f2;
+  color: #333;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  position: relative;
+  bottom: 0;
+
+
+}
+.pie-pagina:hover{
+    color: #050505;
+    text-shadow: 2px 2px 4px #87a900;
+    transform: scale(1.1);
+    transition: all 0.4s ease;
+  
+}

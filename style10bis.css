@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: grid;
+    grid-template-areas:
+        "header header header"
+        "main main aside "
+        "footer footer footer";
+    grid-template-columns: 1fr 2fr 1fr; /* Definimos tres columnas, donde el contenido principal (main) es el doble de ancho que el header y el footer */
+    grid-template-rows: auto 1fr auto; /* La altura del header y del footer es determinada por su contenido, el resto del espacio se divide entre el main y el footer */
+    min-height: 100vh; /* Aseguramos que el grid ocupe toda la altura del viewport */
+}
+
+header {
+    grid-area: header;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+main {
+    grid-area: main;
+    padding: 20px;
+}
+
+section {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+aside {
+    grid-area: aside;
+    background-color: #ddd;
+    padding: 20px;
+}
+
+footer {
+    grid-area: footer;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}

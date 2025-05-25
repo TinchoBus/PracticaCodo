@@ -1,0 +1,244 @@
+body{
+    background-color: #95d99e6a;
+    font-family: Arial, sans-serif;
+}
+.titulo{
+    font-size: 30px;
+    color: #000;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+
+}
+p:nth-child(2n){
+    font-size: 20px;
+    color: #000;
+    background-color: aqua;
+
+}
+a:link{
+    color: #420198;
+    text-decoration: none;
+    font-size: medium; 
+    font-weight: bold;
+}
+a:visited{
+    color: #980101;
+    text-decoration: none;
+    font-size: medium; 
+    font-weight: bold;
+}
+a:active{
+    color: #000;
+    text-decoration: none;
+    font-size: medium; 
+    font-weight: bold;
+}
+a:hover{
+    color: #143f5d;
+    text-decoration: underline;
+    font-size: medium; 
+    font-weight: bold;
+}
+.icono {
+    position: absolute;     /* Posicionamiento absoluto */
+    top: 10px;              /* Distancia desde arriba */
+    left: 10px;             /* Distancia desde la izquierda */
+    font-size: 30px;        /* Tamaño del ícono */
+    color: white;           /* Color del ícono */
+    text-decoration: none;  /* Sin subrayado */
+    z-index: 1000;          /* Se asegura que esté por encima de todo */
+}
+.icono:hover {
+    color: #ffd700; /* dorado */
+    transform: scale(1.2);
+    transition: 0.3s ease;
+}
+/* p::first-letter{
+    font-size: 2em;
+    color: #000;
+    font-weight: bold;
+    background-color: rgb(9, 199, 88);
+} */
+/* p::first-line{
+    font-size: 1.5em;
+    color: #000;
+    font-weight: bold;
+    background-color: rgb(9, 199, 88);
+    text-transform: uppercase;
+} 
+   
+*/
+body::selection{
+    background-color: #ad06066a;
+    color: #000;
+}
+.redes{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.logoms {
+  color: #0084ff;
+}
+.logowsp {
+  color: #25D366;
+}
+.logolin {
+  color: #0077b5;
+}
+.logoins {
+  color: #C13584;
+}
+
+/* p::before{
+    content: "Vamos que vamos";
+    display: block;
+    font-size: 0.8em;
+    color: #000;
+    font-weight: bold;
+    background-color: rgb(9, 199, 88);
+
+} */
+
+/* Translate */
+/* .cuadrado {
+    width: 100px;
+    height: 100px;
+    background-color: red; */
+     /* transform: translate(100px, 100px);  */
+
+/* .circulo {
+    width: 100px;
+    height: 100px;
+    background-color: #3498db;
+    border-radius: 50%;
+    position: relative;
+}
+.circulo:hover{
+    animation: latido 2s infinite alternate;
+}
+@keyframes latido {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.2);
+    }
+}
+.triangulo{
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid #19572c;
+    position: relative;
+    transform: translate(100px, 200px);
+    animation: latido 2s infinite alternate;
+    
+
+} */
+
+/* Scale  */
+/* .cuadrado {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transform: scale(2,2);
+} */
+
+/*  Rotate */
+/* .cuadrado {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transform: rotate(-45deg);
+} */
+/* 
+/* multiple */
+/* .cuadrado {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.cuadrado:hover{
+    transform: translate(50px, 20px) scale(1.5) rotate(45deg);
+} */ */
+
+
+/* transicion */
+/* .cuadrado {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition-property: transform, background-color;
+    transition-duration: 0.1s;
+}
+
+.cuadrado:hover {
+    transform: translate(50px, 20px) scale(1.5) rotate(45deg);
+    background-color: blue;
+} */
+
+/* transicion resumido */
+/* .cuadrado {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: all 1s ease-in 2s;
+}
+
+.cuadrado:hover {
+    transform: translate(50px, 20px) scale(1.5) rotate(45deg);
+    background-color: blue;
+    width: 200px;
+} */
+
+.circulo {
+    width: 100px;
+    height: 100px;
+    background-color: #3498db;
+    border-radius: 50%;
+    position: relative;
+}
+
+.circulo:hover{
+    animation: latido 2s infinite alternate;
+}
+
+@keyframes latido {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.2);
+    }
+}
+
+.diapositiva{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    animation-name: cambiarColor;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+}
+
+@keyframes cambiarColor {
+    0%{
+        background: red; 
+        width: 200px;
+    }
+    50%{
+        background: yellow; 
+        width: 400px;
+    }
+    100%{
+        background: green;
+        width: 600px;
+    }
+}

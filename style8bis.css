@@ -1,0 +1,83 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.circulo {
+    position: absolute;
+    top: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: #3498db;
+    border-radius: 50%;
+    position: relative;
+}
+
+.circulo:hover{
+    animation: latido 2s infinite alternate;
+}
+
+@keyframes latido {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.2);
+    }
+}
+
+.cuadrado {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    /* transform: traslate 100px, 200px; */
+} 
+
+
+/* .cuadrado {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transform: rotate(-45deg);
+} 
+.cuadrado {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.cuadrado:hover{
+    transform: translate(50px, 20px) scale(1.5) rotate(45deg);
+} */
+.redes{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.logoms{
+    font-size: 15px;
+    color:blue;
+}
+.logowsp{
+    font-size: 15px;
+    color:green;
+    
+}
+.logolin{
+    font-size: 15px;
+    color:blue;
+    
+}
+.logoins{
+    font-size: 15px;
+    color:rgb(254, 6, 180);
+}
+a:visited{
+    color: #980101;
+    text-decoration: none;
+    font-size: medium; 
+    font-weight: bold;
+}

@@ -55,25 +55,23 @@ section{
     display: flex;
     justify-content: space-around;
 }
-
-
-.logoms{
-    font-size: 15px;
-    color:blue;
+.logoms {
+  color: #0084ff;
 }
-.logowsp{
-    font-size: 15px;
-    color:green;
-    
+.logowsp {
+  color: #25D366;
 }
-.logolin{
-    font-size: 15px;
-    color:blue;
-    
+.logolin {
+  color: #0077b5;
 }
-.logoins{
-    font-size: 15px;
-    color:rgb(254, 6, 180);
+.logoins {
+  color: #C13584;
+}
+a:visited{
+    color: #980101;
+    text-decoration: none;
+    font-size: medium; 
+    font-weight: bold;
 }
 
 
